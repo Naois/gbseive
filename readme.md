@@ -4,7 +4,7 @@ This project implements a seiving solution to [Project Euler problem 7](https://
 
 To build this, you will need to install [rgbds](https://rgbds.gbdev.io/) (I did this through msys2) and ensure that the binaries folder listed in the Makefile is correct. Then just run make.
 
-The implementation is able to seive all of the odd primes up to around 120000 by representing each odd number by a bit in WRAM.
+The implementation is able to seive all of the odd primes up to around 120000 by representing each odd number by a bit in WRAM. It has been verified to run on GBA hardware.
 
 If you want to run it yourself, I would recommend building it and running in [bgb](https://bgb.bircd.org/) so you can see what's going on in the background as it runs. In particular, viewing WRAM during the seiving process is entertaining.
 
